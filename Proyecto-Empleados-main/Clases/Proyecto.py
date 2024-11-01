@@ -1,6 +1,6 @@
 from datetime import datetime
 
-class Proyecto:
+class proyecto:
     def __init__(self, id, nombre, descripcion, fecha_inicio, fecha_fin):
         self.id = id
         self.nombre = nombre

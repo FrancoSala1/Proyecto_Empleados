@@ -1,7 +1,7 @@
 import hashlib
 from datetime import datetime
 
-class Empleados:
+class empleados:
     def __init__(self, id, nombre, direccion, telefono, correo, fecha_inicio, salario, id_tipo, rut, contraseña):
         self.id = id
         self.nombre = nombre

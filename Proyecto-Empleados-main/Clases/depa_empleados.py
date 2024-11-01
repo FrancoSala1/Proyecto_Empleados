@@ -1,4 +1,4 @@
-class Departamento_empleado:
+class departamento_empleados:
     def __init__(self, id, id_depto, id_empleado):
         self.id = id
         self.id_depto = id_depto

@@ -1,6 +1,6 @@
 from datetime import datetime
 
-class Registro_tiempo:
+class registro_tiempo:
     def __init__(self, id, fecha, tareas, id_asignacion, observacion):
         self.id = id
         self.fecha = datetime.strptime(fecha, '%Y-%m-%d')

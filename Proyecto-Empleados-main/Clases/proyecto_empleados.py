@@ -1,4 +1,4 @@
-class Proyecto_empleado:
+class proyecto_empleados:
     def __init__(self, id, id_proyecto, id_empleado):
         self.id = id
         self.id_proyecto = id_proyecto
