@@ -14,9 +14,7 @@ class empleados():
         self.__contraseña = self._encriptar(contraseña)
 
     def guardar_empleado(self, departamento):
-        """
-        Guarda el empleado y verifica si debe ser asignado como gerente.
-        """
+        
         print(f"Guardando el empleado {self._nombre} en el sistema...")
 
     
