@@ -12,6 +12,8 @@ def create_connection():
         )
         if connection.is_connected():
             print("Conexión exitosa a la base de datos")
+        cursor=connection.cursor()
+        cursor.execute("select from")
     except Error as e:
         print(f"Error: {e}")
     return connection
